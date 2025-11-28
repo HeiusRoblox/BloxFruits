@@ -23,7 +23,8 @@ end
 repeat
     wait()
 until game.Players.LocalPlayer.Character
-loadstring(game:HttpGet("https://raw.githubusercontent.com/viplam087-png/Hjj/main/AttackAndBring.lua"))()
+loadstring(game:HttpGet("https://github.com/HeiusRoblox/Settings/blob/main/FastAttack.lua?raw=true"))()
+loadstring(game:HttpGet("https://github.com/HeiusRoblox/Settings/blob/main/UnBenFastAttack.lua?raw=true"))()
 function CheckQuest() 
     MyLevel = game:GetService("Players").LocalPlayer.Data.Level.Value
     if World1 then
@@ -1771,7 +1772,7 @@ gg.__namecall = newcclosure(function(...)
     end
     return old(...)
 end)
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/viplam087-png/Hjj/main/LibraryRedz.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
 local Window = Library:MakeWindow({
   Title = "MinzCute Hub : Blox Fruits",
   SubTitle = "by HeiusDev",
